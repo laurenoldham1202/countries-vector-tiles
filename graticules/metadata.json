@@ -1,0 +1,14 @@
+{
+"name": "graticules/",
+"description": "graticules/",
+"version": "2",
+"minzoom": "0",
+"maxzoom": "5",
+"center": "174.375000,58.691485,5",
+"bounds": "-180.000000,-85.051129,180.000000,85.051129",
+"type": "overlay",
+"format": "pbf",
+"generator": "tippecanoe v1.36.0",
+"generator_options": "tippecanoe -z5 -Z0 -f -l graticules ../natural-earth/ne_110m_graticules_all/graticules.geosjon -pC -e graticules/",
+"json": "{\"vector_layers\": [ { \"id\": \"graticules\", \"description\": \"\", \"minzoom\": 0, \"maxzoom\": 5, \"fields\": {\"dd\": \"Number\", \"degrees\": \"Number\", \"direction\": \"String\", \"display\": \"String\", \"recnum\": \"Number\", \"scalerank\": \"Number\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"graticules\",\"count\": 17,\"geometry\": \"LineString\",\"attributeCount\": 6,\"attributes\": [{\"attribute\": \"dd\",\"count\": 12,\"type\": \"number\",\"values\": [-12,-15,-30,-60,-90,0,120,150,180,30,60,90],\"min\": -90,\"max\": 180},{\"attribute\": \"degrees\",\"count\": 7,\"type\": \"number\",\"values\": [0,120,150,180,30,60,90],\"min\": 0,\"max\": 180},{\"attribute\": \"direction\",\"count\": 4,\"type\": \"string\",\"values\": [\"E\",\"N\",\"S\",\"W\"]},{\"attribute\": \"display\",\"count\": 16,\"type\": \"string\",\"values\": [\"0\",\"120 E\",\"120 W\",\"150 E\",\"150 W\",\"180 E\",\"30 E\",\"30 N\",\"30 S\",\"30 W\",\"60 E\",\"60 N\",\"60 S\",\"60 W\",\"90 E\",\"90 W\"]},{\"attribute\": \"recnum\",\"count\": 17,\"type\": \"number\",\"values\": [1,10,11,12,13,14,15,16,17,18,3,4,5,6,7,8,9],\"min\": 1,\"max\": 18},{\"attribute\": \"scalerank\",\"count\": 1,\"type\": \"number\",\"values\": [1],\"min\": 1,\"max\": 1}]}]}}"
+}
